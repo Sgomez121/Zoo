@@ -1,17 +1,17 @@
 public class Dolphin extends Animal implements Swim{
-  private String colorOfDolphin;
+  private String color;
   private int swimmingSpeed;
 
   public Dolphin(){
       super("Dolphin");
   }
 
-    public String getColorOfDolphin() {
-        return colorOfDolphin;
+    public String getColor() {
+        return color;
     }
 
-    public void setColorOfDolphin(String colorOfDolphin){
-        this.colorOfDolphin = colorOfDolphin;
+    public void setColor(String color){
+        this.color = color;
     }
 
     public int getSwimmingSpeed(){
