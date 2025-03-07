@@ -92,7 +92,7 @@ public class Main {
                                 System.out.println("Enter number of stripes: ");
                                 tigerObject.setNumberOfStripes(keyboard.nextInt());
                                 System.out.println("Enter sound level of roar: ");
-                                tigerObject.setSoundLevelOfRoar(keyboard.nextInt());
+                                tigerObject.setSoundLevel(keyboard.nextInt());
                                 break;
 
                             case 2:
@@ -101,7 +101,7 @@ public class Main {
                                 System.out.println("Age: " + tigerObject.getAge());
                                 System.out.println("Speed: " + tigerObject.getSpeed());
                                 System.out.println("Number of stripes: " + tigerObject.getNumberOfStripes());
-                                System.out.println("Sound level of roar: "+ tigerObject.getSoundLevelOfRoar());
+                                System.out.println("Sound level of roar: "+ tigerObject.getSoundLevel());
                                 break;
                             case 3:
                                 tigerObject.walking();
@@ -133,7 +133,7 @@ public class Main {
                                 System.out.println("Enter the age: ");
                                 dolphinObject.setAge(keyboard.nextInt());
                                 System.out.println("Enter a color: ");
-                                dolphinObject.setColorOfDolphin(keyboard.next());
+                                dolphinObject.setColor(keyboard.next());
                                 System.out.println("Enter swimming speed: ");
                                 dolphinObject.setSwimmingSpeed(keyboard.nextInt());
                                 break;
@@ -142,7 +142,7 @@ public class Main {
                                 System.out.println("Height: "+dolphinObject.getHeight());
                                 System.out.println("Weight: "+ dolphinObject.getWeight());
                                 System.out.println("Age: " + dolphinObject.getAge());
-                                System.out.println("Color: "+dolphinObject.getColorOfDolphin());
+                                System.out.println("Color: "+dolphinObject.getColor());
                                 System.out.println("Swimming speed: "+dolphinObject.getSwimmingSpeed());
                                 break;
                             case 3:
@@ -176,7 +176,7 @@ public class Main {
                                 System.out.println("Is the penguin swimming (true/false): ");
                                 penguinObject.setIsSwimming(keyboard.nextBoolean());
                                 System.out.println("Enter walking Speed: ");
-                                penguinObject.setWalkingSpeed(keyboard.nextInt());
+                                penguinObject.setWalkSpeed(keyboard.nextInt());
                                 System.out.println("Enter swimming speed: ");
                                 penguinObject.setSwimSpeed(keyboard.nextInt());
                                 break;
@@ -186,7 +186,7 @@ public class Main {
                                 System.out.println("Weight: "+ penguinObject.getWeight());
                                 System.out.println("Age: " + penguinObject.getAge());
                                 System.out.println("Is Penguin swimming: " + penguinObject.getIsSwimming());
-                                System.out.println("Walking Speed: "+ penguinObject.getWalkingSpeed());
+                                System.out.println("Walking Speed: "+ penguinObject.getWalkSpeed());
                                 System.out.println("Swimming speed: "+penguinObject.getSwimSpeed());
                                 break;
                             case 3:
